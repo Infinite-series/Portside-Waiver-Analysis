@@ -114,10 +114,6 @@ def age_range(val):
 
 sorted_post_cleaned['Age_range'] = sorted_post_cleaned['Age'].apply(age_range)
 
-
-# Portside Boulders Osborne Park = [-31.913804807106942, 115.81700105099641]
-# Portside Boulders OConnor = [-32.058028246537745, 115.78597443149988]
-
 sorted_post_cleaned_suburbs = sorted_post_cleaned[[
     'Sex', 'Gym', 'Suburb_updated', 'Postcode_updated', 'Lat_precise', 'Long_precise', 'Age']].copy()
 

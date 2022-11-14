@@ -1,6 +1,6 @@
 import pandas as pd
 from geopy.geocoders import GoogleV3
-geolocator = GoogleV3(api_key='AIzaSyBBrqyMq9cgDw411SwwQ1WLArTrzjZL8Wk')
+geolocator = GoogleV3(api_key='AIzaSyDXJrPyEOm8s20hy8jpMADHb2jOuOD2TbA')
 
 combined_gyms = pd.read_csv(r'Data\combined_gyms.csv')
 
